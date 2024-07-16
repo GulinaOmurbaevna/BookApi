@@ -1,4 +1,5 @@
 import React from "react";
+import Modal from "./Modal";
 
 function Card({ book }) {
   console.log(book);
@@ -19,6 +20,7 @@ function Card({ book }) {
                   <p className="amount">&#8377;{amount}</p>
                 </div>
               </div>
+              < Modal />
               </div>
             );
         }
