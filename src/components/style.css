@@ -161,10 +161,11 @@ html {
     background: white;
     width: 700px;
     height: 550px;
-    padding: relative;
+    padding: 1.5rem;
     box-sizing: border-box;
     overflow: hidden;
     font-size: 1.3rem;
+    
 }
 
 .overlay-inner .close {
